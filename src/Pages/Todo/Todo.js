@@ -51,13 +51,13 @@ const Todo = () => {
         }
     }
     return (
-        <div>
+        <div style={{ minHeight: '100vh' }}>
             <TodoForm todo={todo} setTodo={setTodo} handelTodo={handelTodo} />
             <div className="mt-3">
                 {
                     !todoList.length && <b className='text-danger'> No data found </b>
                 }
-                <ul className={`list-group bg-secondary text-white ${todoList.length && 'p-4'}`}>
+                <ul className={`list-group  text-white ${todoList.length && 'mt-5'}`}>
 
                     {
                         todoList.length && todoList.map((item, ind) => (
@@ -68,7 +68,8 @@ const Todo = () => {
                                 <b> {ind + 1}.  {item.message} </b>
                                 <div className="ms-auto">
                                     <button
-                                        className='btn btn-success'
+                                        className='btn' 
+                                        style={{ background: '#003366', color: 'white' }}
                                         onClick={() => handelDone(item._id)}
                                     > Done </button>
                                     <button

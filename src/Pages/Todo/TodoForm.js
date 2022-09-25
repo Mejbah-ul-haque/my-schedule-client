@@ -8,7 +8,7 @@ const TodoForm = ({ todo, handelTodo, setTodo }) => {
         setTodo({...todo, message:msg})
     }
     return (
-        <form className='d-flex ' onSubmit={handelTodo}  >
+        <form className='d-flex mt-5' onSubmit={handelTodo}  >
             <input
                 type="text"
                 name="todo"

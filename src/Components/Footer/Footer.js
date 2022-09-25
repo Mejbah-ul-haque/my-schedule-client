@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <footer style={{ marginTop: '120px' }} className='shadow-lg'>
             <div style={{ height: '50px', backgroundColor: 'lightgray' }}></div>
-            <div style={{ backgroundColor: '#003366' }}>
+            <div style={{ backgroundColor: '#111b3b' }}>
                 <section className='container'>
                     <div className="row g-0 ">
                         <div className="col-sm-12 col-md-4">

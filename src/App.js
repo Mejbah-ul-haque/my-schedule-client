@@ -13,7 +13,7 @@ import Calender from './Pages/Calendar/Calendar'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor: '#003366'}}>
       <Header />
       <div className="container my-3">
         <Routes>
