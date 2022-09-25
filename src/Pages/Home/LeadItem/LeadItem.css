@@ -2,6 +2,7 @@
 .lead-card{
   border-style:none;
   background-color: #111b3b;
+  padding: 20px;
 }
 .hello-heading{
   color: goldenrod;

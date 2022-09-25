@@ -1,0 +1,17 @@
+.paper_text_color_css{
+  
+  color:brown;
+  ;
+}
+.paper_text_color_css:hover{
+  
+  background-color: #031430 !important
+  
+}
+.paper_text_color_text:hover{
+  color:yellow !important;
+}
+tbody{
+  border:#070d16e8 !important;
+  box-shadow: 2px 2px 5px rgb(51, 51, 51) !important;
+}

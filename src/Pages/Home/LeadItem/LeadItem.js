@@ -17,11 +17,11 @@ const LeadItem = () => {
 		<div className="container">
 			<div className="row my-5">
 				<div  className="col-sm-12 col-md-12 col-lg-12 mx-auto mt-2 mb-5">
-					<div style={{backgroundColor: '#003366'}} className="card border-0 lead-card">
+					<div style={{backgroundColor: '#001133'}} className="card border-0 lead-card">
 						<div  className="row g-0">
 							<div className="col-md-6 col-lg-7 d-flex align-items-center">
-								<div id="text-body" className="card-body text-body">
-									<h4 className="hello-heading">Hello</h4>
+								<div id="text-body" className="card-body text-body ">
+									<h4 className="hello-heading ">Hello</h4>
 									<h2 className="fw-bold lead-heading">I Am Mejbah</h2>
 									<h5 className="designation-text my-4">Full Stack Web Developer</h5>
 									<p className="text-secondary lh-base head-text-body">

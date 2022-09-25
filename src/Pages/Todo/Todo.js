@@ -13,7 +13,7 @@ const Todo = () => {
 
     // get todo list
     useEffect(() => {
-        axios.get('http://localhost:5000/todo')
+        axios.get('https://fierce-sands-25477.herokuapp.com/todo')
             .then(res => {
                 setLoading(false)
                 setTodoList(res.data)
@@ -24,7 +24,7 @@ const Todo = () => {
     const handelTodo = event => {
         event.preventDefault()
         setTodo({ ...todo, message: '' })
-        axios.post('http://localhost:5000/todo', { todo })
+        axios.post('https://fierce-sands-25477.herokuapp.com/todo', { todo })
             .then(res => {
                 setLoading(true)
                 
@@ -36,7 +36,7 @@ const Todo = () => {
     const handelRemoveTodo = id => {
         const conformation = window.confirm('Are you sure want to remove?')
         if (conformation) {
-            axios.delete(`http://localhost:5000/todo/${id}`)
+            axios.delete(`https://fierce-sands-25477.herokuapp.com/todo/${id}`)
                 .then(res => {
                     setLoading(true)
                 })
@@ -46,7 +46,7 @@ const Todo = () => {
         const conformation = window.confirm('Are you sure your work is done?')
         const complete = true
         if (conformation) {
-            axios.put(`http://localhost:5000/todo/${id}`, {complete})
+            axios.put(`https://fierce-sands-25477.herokuapp.com/todo/${id}`, {complete})
                 .then(res => setLoading(true))
         }
     }
