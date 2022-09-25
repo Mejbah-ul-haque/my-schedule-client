@@ -6,6 +6,7 @@ import './App.css';
 import Header from './Components/Header/Header';
 import Home from './Pages/Home/Home'
 import Todo from './Pages/Todo/Todo'
+import Calendar from './Pages/Calendar/Calendar'
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/todo' element={<Todo />} />
+          <Route path='/calender' element={<Calendar />} />
+          
         </Routes>
       </div>
     </div>
