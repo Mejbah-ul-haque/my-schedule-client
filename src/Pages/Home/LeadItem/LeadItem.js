@@ -29,8 +29,8 @@ const LeadItem = () => {
 										I work with JavaScript, ReactJS, NodeJS, HTML5, CSS3 and so
 										on.
 									</p>
-									<Link to="/contact"><button className="btn btn-success rounded-pill px-5 py-2 mt-4 me-3 ">Hire Me</button></Link>
-									<a target="_blank" href="https://drive.google.com/file/d/1oq2jd2nKfXv-MIqqvW7DeTMMyiACbzgG/view?usp=sharing"><button className="btn btn-outline-success rounded-pill px-4 py-2 mt-4">My Resume</button></a>
+									<Link to="/contact"><button className="btn btn-warning rounded-pill px-5 py-2 mt-4 me-3 fw-bold">Hire Me</button></Link>
+									<a target="_blank" href="https://drive.google.com/file/d/1oq2jd2nKfXv-MIqqvW7DeTMMyiACbzgG/view?usp=sharing"><button className="btn btn-outline-warning rounded-pill px-4 py-2 mt-4">My Resume</button></a>
 								</div>
 							</div>
 							<div style={myStyle} className="col-md-6 col-lg-5 rounded-circle">

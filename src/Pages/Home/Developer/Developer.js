@@ -5,7 +5,7 @@ import "./Developer.css";
 
 const Developer = () => {
 	return (
-		<div className="mt-5"style={{margin: "150px 0"}}>
+		<div className=""style={{margin: "150px 0", margin:"150px 0"}}>
       <div>
         <h6 className="text-center text-secondary  fs-5 my-5"><span className="border rounded-pill border-warning bg-warning text-dark px-5 py-3">For Developer</span> </h6>
       </div>
@@ -42,6 +42,15 @@ const Developer = () => {
 						
 					</tr>
 					<tr className="">
+					<td className="paper_text_color_yellow">
+							<a
+								href="https://www.programming-hero.com/"
+								target="_blank"
+								className="text-decoration-none text-light paper_text_color_text"
+							>
+								Programming Hero
+							</a>
+						</td>
 						<td className="paper_text_color_yellow">
 							<a
 								href="https://www.udemy.com/"
@@ -51,15 +60,7 @@ const Developer = () => {
 								Udemy
 							</a>
 						</td>
-						<td className="paper_text_color_yellow">
-							<a
-								href="https://www.programming-hero.com/"
-								target="_blank"
-								className="text-decoration-none text-light paper_text_color_text"
-							>
-								Programming Hero
-							</a>
-						</td>
+						
 						<td className="paper_text_color_yellow">
 							<a
 								href="https://www.coursera.org/"
