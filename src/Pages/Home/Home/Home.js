@@ -12,8 +12,7 @@ const q = () => {
             <Goals></Goals>
             <Developer></Developer>
             <Paper></Paper>
-            <Paper></Paper>
-            <Paper></Paper>
+            
             
         </div>
     );

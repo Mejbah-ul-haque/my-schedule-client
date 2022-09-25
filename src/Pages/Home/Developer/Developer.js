@@ -5,7 +5,7 @@ import "./Developer.css";
 
 const Developer = () => {
 	return (
-		<div className="mt-5">
+		<div className="mt-5"style={{margin: "150px 0"}}>
       <div>
         <h6 className="text-center text-secondary  fs-5 my-5"><span className="border rounded-pill border-warning bg-warning text-dark px-5 py-3">For Developer</span> </h6>
       </div>
