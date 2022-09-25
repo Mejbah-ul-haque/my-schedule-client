@@ -4,9 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 
 import Header from './Components/Header/Header';
-import Home from './Pages/Home/Home'
+import Footer from './Components/Footer/Footer';
+import Home from './Pages/Home/Home/Home'
 import Todo from './Pages/Todo/Todo'
-import Calendar from './Pages/Calendar/Calendar'
+import Calender from './Pages/Calendar/Calendar'
+
+
 
 function App() {
   return (
@@ -16,10 +19,11 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/todo' element={<Todo />} />
-          <Route path='/calender' element={<Calendar />} />
+          <Route path='calendar' element={<Calender></Calender>}></Route>
           
         </Routes>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
