@@ -5,7 +5,7 @@ import Paper from '../Paper/Paper';
 import Developer from '../Developer/Developer';
 import Contact from '../../Contact/Contact';
 
-const q = () => {
+const Home = () => {
     return (
         <div style={{ minHeight: '100vh' }}>
             <Paper></Paper>
@@ -20,4 +20,4 @@ const q = () => {
     );
 };
 
-export default q;
+export default Home;
