@@ -3,6 +3,7 @@ import LeadItem from '../LeadItem/LeadItem';
 import Goals from '../Goals/Goals';
 import Paper from '../Paper/Paper';
 import Developer from '../Developer/Developer';
+import Contact from '../../Contact/Contact';
 
 const q = () => {
     return (
@@ -12,6 +13,7 @@ const q = () => {
             <Goals></Goals>
             <Developer></Developer>
             <Paper></Paper>
+            <Contact></Contact>
             
             
         </div>
